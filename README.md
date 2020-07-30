@@ -7,8 +7,8 @@
 
 ```xml
 <dependency>
-    <groupId>com.wanggan</groupId>
-    <artifactId>swagger-spring-boot-starter</artifactId>
+    <groupId>com.vip</groupId>
+    <artifactId>vip-swagger</artifactId>
     <version>1.0.0</version>
 </dependency>
 ```
