@@ -1,4 +1,4 @@
-package com.wanggan.swagger.config;
+package com.vip.swagger;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

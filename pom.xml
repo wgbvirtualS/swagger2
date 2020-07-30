@@ -4,12 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.wanggan</groupId>
-    <artifactId>swagger-spring-boot-starter</artifactId>
+    <groupId>com.vip</groupId>
+    <artifactId>vip-swagger</artifactId>
     <version>1.0.0</version>
+    <name>vip-swagger</name>
+    <description>swagger无侵入源码</description>
 
     <properties>
-        <spring-boot.version>2.0.0.RELEASE</spring-boot.version>
+        <spring-boot.version>2.1.1.RELEASE</spring-boot.version>
         <swagger.version>2.8.0</swagger.version>
     </properties>
 
@@ -34,8 +36,8 @@
 
     <developers>
         <developer>
-            <name>wanggan</name>
-            <email>1556909500@qq.com</email>
+            <name>LEON</name>
+            <email>phoenix_0911@163.com</email>
             <roles>
                 <role>software developer</role>
             </roles>
