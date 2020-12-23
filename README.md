@@ -3,7 +3,7 @@
 
 ## 1.在pom.xml 添加maven依赖
 
-这里需要说明一下,因为我还没有上传中央存储库,所以,直接依赖是找不到的,所以,你就下载下来,地址是([https://gitee.com/xiangyue520/swagger2](https://link.jianshu.com?t=https%3A%2F%2Fgitee.com%2Fxiangyue520%2Fswagger2)), 然后进入我的这个项目根目录`mvn clean install` 一下,输入下面这个依赖就可以了
+这里需要说明一下,因为我还没有上传中央存储库,所以,直接依赖是找不到的,所以,你就clone到本地, 然后进入我的这个项目根目录`mvn clean install` 一下,输入下面这个依赖就可以了
 
 ```xml
 <dependency>
