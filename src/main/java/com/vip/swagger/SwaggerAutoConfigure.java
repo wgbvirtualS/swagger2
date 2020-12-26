@@ -34,12 +34,10 @@ public class SwaggerAutoConfigure {
         String basePackage = properties.getBasePackage();
         String groupName = properties.getGroupName();
         Docket docket = new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo());
-        //判断是否存在groupname
         if (null != groupName && !groupName.trim().equals("")) {
             docket = docket.groupName(groupName);
         }
         ApiSelectorBuilder builder = docket.select();
-        //判断是否存在基础扫描包
         if (null == basePackage || basePackage.trim().equals("")) {
             return builder.build();
         } else {
@@ -50,13 +48,13 @@ public class SwaggerAutoConfigure {
     private ApiInfo apiInfo() {
         Contact contact = new Contact(this.properties.getContactName(), this.properties.getContactUrl(), this.properties.getContactEmail());
         return new ApiInfoBuilder()
-              .title(this.properties.getTitle())
-              .description(this.properties.getDescription())
-              .termsOfServiceUrl(properties.getTermsOfService())
-              .license(properties.getLicenseName())
-              .licenseUrl(properties.getLicenseUrl())
-              .contact(contact)
-              .version(this.properties.getVersion())
-              .build();
+                .title(this.properties.getTitle())
+                .description(this.properties.getDescription())
+                .termsOfServiceUrl(properties.getTermsOfService())
+                .license(properties.getLicenseName())
+                .licenseUrl(properties.getLicenseUrl())
+                .contact(contact)
+                .version(this.properties.getVersion())
+                .build();
     }
 }
