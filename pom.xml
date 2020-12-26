@@ -9,6 +9,7 @@
     <version>1.0.0</version>
     <name>vip-swagger</name>
     <description>swagger无侵入源码</description>
+    <url>https://github.com/wgbvirtualS/swagger2.git</url>
 
     <properties>
         <spring-boot.version>2.1.1.RELEASE</spring-boot.version>
@@ -29,8 +30,8 @@
 
     <licenses>
         <license>
-            <name>GNU General Public License</name>
-            <url>http://www.gnu.org/licenses/gpl-3.0.txt</url>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
 
@@ -46,9 +47,7 @@
     </developers>
 
     <scm>
-        <connection>https://github.com/wgbvirtualS/swagger2.git</connection>
-        <developerConnection>https://github.com/wgbvirtualS/swagger2.git</developerConnection>
-        <url>https://github.com/wgbvirtualS/swagger2</url>
+        <url>https://github.com/wgbvirtualS/swagger2.git</url>
     </scm>
 
     <dependencies>
