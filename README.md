@@ -5,7 +5,7 @@
 
 ```xml
 <dependency>
-    <groupId>com.vip</groupId>
+    <groupId>com.github.wgbvirtuals</groupId>
     <artifactId>vip-swagger</artifactId>
     <version>1.0.0</version>
 </dependency>
