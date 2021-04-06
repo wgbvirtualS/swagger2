@@ -1,13 +1,11 @@
 # swagger2无侵入jar包源码
-原swagger2配置弊端是需要在启动类上添加注解、在上下文中配置swagger配置类、配置类中还需要拷贝别人的代码然后改成自己的代码，所以上述步骤在本项目中可以完全忽略，只需要有本项目打包成的jar包，添加依赖即可。
+原swagger2配置弊端是需要在启动类上添加注解、在上下文中配置swagger配置类、配置类中还需要拷贝别人的代码然后改成自己的代码，所以上述步骤在本项目中可以完全忽略，只需要添加依赖即可。
 
 ## 1.在pom.xml 添加maven依赖
 
-这里需要说明一下,因为我还没有上传中央存储库,所以,直接依赖是找不到的,所以,你就clone到本地, 然后进入我的这个项目根目录`mvn clean install` 一下,输入下面这个依赖就可以了
-
 ```xml
 <dependency>
-    <groupId>com.vip</groupId>
+    <groupId>com.github.wgbvirtuals</groupId>
     <artifactId>vip-swagger</artifactId>
     <version>1.0.0</version>
 </dependency>
