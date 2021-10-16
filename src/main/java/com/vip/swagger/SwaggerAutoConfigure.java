@@ -23,7 +23,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 @ConditionalOnClass({Controller.class})
 @ConditionalOnMissingBean({Docket.class})
-@EnableConfigurationProperties({SwaggerProperties.class})
+@EnableConfigurationProperties(SwaggerProperties.class)
 public class SwaggerAutoConfigure {
 
     @Autowired
