@@ -6,7 +6,7 @@
 
     <groupId>com.github.wgbvirtuals</groupId>
     <artifactId>vip-swagger</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>vip-swagger</name>
     <description>swagger无侵入源码</description>
     <url>https://github.com/wgbvirtualS/swagger2.git</url>
